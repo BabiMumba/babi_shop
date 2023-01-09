@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/cartFragment"
-        android:name="com.example.shoeapp.CartFragment"
+        android:name="com.babimumba.babishop.CartFragment"
         android:label="CartFragment" />
     <fragment
         android:id="@+id/signInFragmentFragment"
