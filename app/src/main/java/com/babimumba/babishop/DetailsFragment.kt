@@ -11,8 +11,8 @@ import com.example.shoeapp.Extensions.toast
 import com.babimumba.babishop.Models.ProductOrderModel
 import com.babimumba.babishop.Models.ShoeDisplayModel
 import com.example.shoeapp.databinding.FragmentDetailspageBinding
-import com.example.shoeapp.rvadapters.SizeAdapter
-import com.example.shoeapp.rvadapters.SizeOnClickInterface
+import com.babimumba.babishop.rvadapters.SizeAdapter
+import com.babimumba.babishop.rvadapters.SizeOnClickInterface
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.firestore.ktx.firestore

@@ -7,6 +7,9 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.shoeapp.Extensions.toast
 import com.babimumba.babishop.Models.LikeModel
+import com.babimumba.babishop.rvadapters.LikeAdapter
+import com.babimumba.babishop.rvadapters.LikedOnClickInterface
+import com.babimumba.babishop.rvadapters.LikedProductOnClickInterface
 import com.example.shoeapp.databinding.FragmentLikepageBinding
 import com.example.shoeapp.rvadapters.*
 import com.google.firebase.auth.FirebaseAuth

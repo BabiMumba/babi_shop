@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.babimumba.babishop.Models.CartModel
+import com.babimumba.babishop.databinding.CartproductItemBinding
 import com.example.shoeapp.SwipeToDelete
-import com.example.shoeapp.databinding.CartproductItemBinding
 
 class CartAdapter(
     private val context : Context,
@@ -15,11 +15,7 @@ class CartAdapter(
     private val onLongClickRemove: OnLongClickRemove
     ):RecyclerView.Adapter<CartAdapter.ViewHolder>()  {
 
-
-
-
-
-    inner class ViewHolder(val binding:CartproductItemBinding):RecyclerView.ViewHolder(binding.root){
+    inner class ViewHolder(val binding: CartproductItemBinding):RecyclerView.ViewHolder(binding.root){
 
         private val onSwipeDelete = object : SwipeToDelete() {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {

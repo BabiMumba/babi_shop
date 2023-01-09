@@ -1,10 +1,10 @@
-package com.example.shoeapp.rvadapters
+package com.babimumba.babishop.rvadapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
-import com.example.shoeapp.databinding.CategorymainItemBinding
+import com.babimumba.babishop.databinding.CategorymainItemBinding
 
 class MainCategoryAdapter(
     private val list: ArrayList<String>,

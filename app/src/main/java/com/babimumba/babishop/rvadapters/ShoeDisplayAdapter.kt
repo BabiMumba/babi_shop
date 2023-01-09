@@ -1,4 +1,4 @@
-package com.example.shoeapp.rvadapters
+package com.babimumba.babishop.rvadapters
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.babimumba.babishop.Models.ShoeDisplayModel
-import com.example.shoeapp.databinding.ShoedisplaymainItemBinding
+import com.babimumba.babishop.databinding.ShoedisplaymainItemBinding
 
 class ShoeDisplayAdapter(
     private val context:Context,

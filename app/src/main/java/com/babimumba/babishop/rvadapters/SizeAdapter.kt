@@ -1,15 +1,12 @@
-package com.example.shoeapp.rvadapters
+package com.babimumba.babishop.rvadapters
 
 
 import android.content.Context
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Button
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.example.shoeapp.R
-import com.example.shoeapp.databinding.SizeItemBinding
+import com.babimumba.babishop.databinding.SizeItemBinding
 
 class SizeAdapter(
     private val context: Context ,

@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.shoeapp.Extensions.toast
 import com.babimumba.babishop.Models.LikeModel
 import com.babimumba.babishop.Models.ShoeDisplayModel
+import com.babimumba.babishop.rvadapters.*
 import com.example.shoeapp.databinding.FragmentMainpageBinding
 import com.example.shoeapp.rvadapters.*
 import com.google.firebase.auth.FirebaseAuth
