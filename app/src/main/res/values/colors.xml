@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
  <color name="light_gray">#e0e0e0</color>
     <color name="green_color">#00D100</color>
+    <color name="grayishWhite">#F1EDED</color>
+    <color name="greyishtext">#474444</color>
+    <color name="statusbar">#ffffff</color>
 </resources>
