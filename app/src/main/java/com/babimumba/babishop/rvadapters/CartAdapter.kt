@@ -1,4 +1,4 @@
-package com.example.shoeapp.rvadapters
+package com.babimumba.babishop.rvadapters
 
 import android.content.Context
 import android.view.LayoutInflater
