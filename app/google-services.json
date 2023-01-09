@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "879630624379",
+    "project_id": "babi-shop",
+    "storage_bucket": "babi-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879630624379:android:9fef57c77b49b9efdba4de",
+        "android_client_info": {
+          "package_name": "com.babimumba.babishop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879630624379-4snos8m4me67k8ludoouktgjmjdni395.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babimumba.babishop",
+            "certificate_hash": "209834108b83db17f270d06aadc0ffa5c4916357"
+          }
+        },
+        {
+          "client_id": "879630624379-83vkeq4pijj6atpijsq260jqhbarg5im.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAihMetf_pU5yfxaCJ1qQin9MhD74LMxZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879630624379-83vkeq4pijj6atpijsq260jqhbarg5im.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
