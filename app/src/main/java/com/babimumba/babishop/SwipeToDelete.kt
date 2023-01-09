@@ -1,4 +1,4 @@
-package com.example.shoeapp
+package com.babimumba.babishop
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView

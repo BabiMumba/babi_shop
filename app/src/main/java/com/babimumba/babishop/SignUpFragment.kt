@@ -1,12 +1,11 @@
-package com.example.shoeapp
+package com.babimumba.babishop
 
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
-import com.example.shoeapp.Extensions.toast
-import com.example.shoeapp.databinding.FragmentSignupBinding
+import com.babimumba.babishop.Extensions.toast
+import com.babimumba.babishop.databinding.FragmentSignupBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class SignUpFragment : Fragment(R.layout.fragment_signup) {

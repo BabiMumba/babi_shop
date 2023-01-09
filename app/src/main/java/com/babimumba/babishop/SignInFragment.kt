@@ -1,14 +1,11 @@
-package com.example.shoeapp
+package com.babimumba.babishop
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import androidx.navigation.fragment.findNavController
-import com.example.shoeapp.Extensions.toast
-import com.example.shoeapp.databinding.FragmentSigninBinding
-import com.example.shoeapp.databinding.FragmentSignupBinding
+import com.babimumba.babishop.Extensions.toast
+import com.babimumba.babishop.databinding.FragmentSigninBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class SignInFragmentFragment : Fragment(R.layout.fragment_signin) {

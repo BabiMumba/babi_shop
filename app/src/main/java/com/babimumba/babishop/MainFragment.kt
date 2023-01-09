@@ -1,4 +1,4 @@
-package com.example.shoeapp
+package com.babimumba.babishop
 
 import android.os.Bundle
 import android.view.View
@@ -9,12 +9,11 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.shoeapp.Extensions.toast
+import com.babimumba.babishop.Extensions.toast
 import com.babimumba.babishop.Models.LikeModel
 import com.babimumba.babishop.Models.ShoeDisplayModel
 import com.babimumba.babishop.rvadapters.*
-import com.example.shoeapp.databinding.FragmentMainpageBinding
-import com.example.shoeapp.rvadapters.*
+import com.babimumba.babishop.databinding.FragmentMainpageBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.firestore.ktx.firestore

@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.babimumba.babishop.Models.CartModel
 import com.babimumba.babishop.databinding.CartproductItemBinding
-import com.example.shoeapp.SwipeToDelete
+import com.babimumba.babishop.SwipeToDelete
 
 class CartAdapter(
     private val context : Context,

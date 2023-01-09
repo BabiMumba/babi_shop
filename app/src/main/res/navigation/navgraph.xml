@@ -5,7 +5,7 @@
     app:startDestination="@id/signInFragmentFragment">
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.shoeapp.MainFragment"
+        android:name="com.babimumba.babishop.MainFragment"
         android:label="MainFragment" >
         <action
             android:id="@+id/action_mainFragment_to_detailsFragment"
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.example.shoeapp.DetailsFragment"
+        android:name="com.babimumba.babishop.DetailsFragment"
         android:label="DetailsFragment" >
         <action
             android:id="@+id/action_detailsFragment_to_cartFragment"
@@ -41,7 +41,7 @@
         android:label="CartFragment" />
     <fragment
         android:id="@+id/signInFragmentFragment"
-        android:name="com.example.shoeapp.SignInFragmentFragment"
+        android:name="com.babimumba.babishop.SignInFragmentFragment"
         android:label="SignInFragmentFragment" >
         <action
             android:id="@+id/action_signInFragmentFragment_to_mainFragment"
@@ -52,7 +52,7 @@
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.example.shoeapp.SignUpFragment"
+        android:name="com.babimumba.babishop.SignUpFragment"
         android:label="SignUpFragment" >
         <action
             android:id="@+id/action_signUpFragment_to_mainFragment"
@@ -63,7 +63,7 @@
     </fragment>
     <fragment
         android:id="@+id/likeFragment2"
-        android:name="com.example.shoeapp.LikeFragment"
+        android:name="com.babimumba.babishop.LikeFragment"
         android:label="LikeFragment" >
         <action
             android:id="@+id/action_likeFragment2_to_mainFragment"

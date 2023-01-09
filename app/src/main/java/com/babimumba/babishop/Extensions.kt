@@ -1,4 +1,4 @@
-package com.example.shoeapp
+package com.babimumba.babishop
 
 import android.app.Activity
 import android.widget.Toast

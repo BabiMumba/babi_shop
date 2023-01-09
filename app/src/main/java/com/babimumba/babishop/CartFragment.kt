@@ -6,7 +6,10 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.shoeapp.Extensions.toast
+import com.babimumba.babishop.Models.CartModel
+import com.babimumba.babishop.databinding.FragmentCartpageBinding
+import com.babimumba.babishop.rvadapters.CartAdapter
+import com.babimumba.babishop.Extensions.toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.ktx.toObject

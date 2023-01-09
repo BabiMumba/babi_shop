@@ -1,4 +1,4 @@
-package com.example.shoeapp
+package com.babimumba.babishop
 
 import android.os.Bundle
 import android.view.View
@@ -7,10 +7,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
-import com.example.shoeapp.Extensions.toast
+import com.babimumba.babishop.Extensions.toast
 import com.babimumba.babishop.Models.ProductOrderModel
 import com.babimumba.babishop.Models.ShoeDisplayModel
-import com.example.shoeapp.databinding.FragmentDetailspageBinding
+import com.babimumba.babishop.databinding.FragmentDetailspageBinding
 import com.babimumba.babishop.rvadapters.SizeAdapter
 import com.babimumba.babishop.rvadapters.SizeOnClickInterface
 import com.google.firebase.auth.FirebaseAuth

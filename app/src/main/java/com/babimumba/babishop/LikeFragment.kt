@@ -1,17 +1,16 @@
-package com.example.shoeapp
+package com.babimumba.babishop
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.shoeapp.Extensions.toast
+import com.babimumba.babishop.Extensions.toast
 import com.babimumba.babishop.Models.LikeModel
 import com.babimumba.babishop.rvadapters.LikeAdapter
 import com.babimumba.babishop.rvadapters.LikedOnClickInterface
 import com.babimumba.babishop.rvadapters.LikedProductOnClickInterface
-import com.example.shoeapp.databinding.FragmentLikepageBinding
-import com.example.shoeapp.rvadapters.*
+import com.babimumba.babishop.databinding.FragmentLikepageBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.firestore.ktx.firestore
